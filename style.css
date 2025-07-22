@@ -3,7 +3,7 @@
     padding:0px;
 }
 body{
-    background-color:#FAFFCA;
+    background-color:#d4d7b6;
     text-align: center;
 }
 /*
@@ -13,32 +13,38 @@ body{
     margin-top:10%;
     border: 5px solid #5A827E;
     border-radius: 15px;
-    background-color:#84AE92;
+    background-color:#a8c9b3;
     display: flex;
     flex-direction: column;
     gap:15px;
-    width: 50%;
+    width: 600px;
+    height: auto;
    /* justify-content: space-around;*/
 
 }
 input,select{
-    margin: 10px;
-    height: 30px;
+    margin: 10px auto;
     font-weight: 700;
     border-radius: 7px;
+    width: 80%;
+    padding: 3px;
+    height: 2.4rem;
     
 }
 p{
     font-weight: 700;
 }
 button{
-    margin: auto;
+    margin: 15px auto;
     padding: 7px;
-    width: 60%;
-    border-radius: 14px;
-    background-color: #26b3a5;
+    width: 200px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    background-color: #123dfe;
     font-weight: 700;
     color: white;
+    box-shadow: 3px 3px 7px rgb(241, 245, 247);
 }
 button:active{
     transform: scale(0.5);
